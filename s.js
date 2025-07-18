@@ -1,6 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
   const alertButton = document.getElementById("alertButton");
-  const greetingText = document.getElementById("greetingText");
   const toggleTheme = document.getElementById("toggleTheme");
 
   alertButton.addEventListener("click", () => {
@@ -16,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
       greeting = "Good evening!";
     }
 
-    greetingText.textContent = greeting;
+  alert(greeting);
   });
 
   toggleTheme.addEventListener("click", () => {
